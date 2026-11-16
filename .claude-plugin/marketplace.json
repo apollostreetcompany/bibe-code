@@ -1,0 +1,20 @@
+{
+  "name": "bibe-code",
+  "owner": {
+    "name": "Apollo Street Company",
+    "email": "support@apollostreet.com",
+    "url": "https://github.com/apollostreetcompany"
+  },
+  "metadata": {
+    "description": "Bibe Code: a short Bible reading under your agent's final answer."
+  },
+  "plugins": [
+    {
+      "name": "bible-coder",
+      "source": "./plugins/bible-coder",
+      "description": "A short Bible reading under your agent's final answer when a task finishes. Needs the bible-coder CLI; silent until you run bible-coder setup --source plugin.",
+      "category": "education",
+      "homepage": "https://bibecoder.com/docs/"
+    }
+  ]
+}

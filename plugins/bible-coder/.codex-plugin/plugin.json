@@ -1,0 +1,38 @@
+{
+  "name": "bible-coder",
+  "version": "0.4.1",
+  "description": "A short Bible reading under your agent's final answer when a task finishes, from your own Bibe Code reading plan. Needs the bible-coder CLI; silent until you run bible-coder setup --source plugin.",
+  "author": {
+    "name": "Apollo Street Company",
+    "email": "support@apollostreet.com",
+    "url": "https://github.com/apollostreetcompany"
+  },
+  "homepage": "https://bibecoder.com/docs/",
+  "repository": "https://github.com/apollostreetcompany/bibe-code",
+  "license": "MIT",
+  "keywords": ["bible", "scripture", "reading-plan", "devotional", "hooks"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bibe Code",
+    "shortDescription": "Bible reading as tasks finish",
+    "longDescription": "When Codex finishes a task, Bibe Code shows one short Bible reading under the final answer and moves your reading plan forward. Free WEB and KJV text comes bundled with the bible-coder CLI. The verses never enter the model's context, and a finished plan gets one quiet line instead. The plugin stays silent until you run bible-coder setup --source plugin --client codex.",
+    "developerName": "Apollo Street Company",
+    "category": "Education",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://bibecoder.com/",
+    "privacyPolicyURL": "https://bibecoder.com/privacy/",
+    "termsOfServiceURL": "https://bibecoder.com/terms/",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Set up Bibe Code readings",
+      "Show my next Bible reading",
+      "Make me a reading plan for Romans"
+    ],
+    "brandColor": "#D11B1B"
+  }
+}

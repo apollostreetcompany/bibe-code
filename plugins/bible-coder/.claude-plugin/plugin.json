@@ -1,0 +1,19 @@
+{
+  "name": "bible-coder",
+  "displayName": "Bibe Code",
+  "version": "0.4.1",
+  "description": "A short Bible reading under your agent's final answer when a task finishes, from your own Bibe Code reading plan. Needs the bible-coder CLI; silent until you run bible-coder setup --source plugin.",
+  "author": {
+    "name": "Apollo Street Company",
+    "email": "support@apollostreet.com",
+    "url": "https://github.com/apollostreetcompany"
+  },
+  "homepage": "https://bibecoder.com/docs/",
+  "repository": "https://github.com/apollostreetcompany/bibe-code",
+  "license": "MIT",
+  "keywords": ["bible", "scripture", "reading-plan", "devotional", "hooks"],
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://bibecoder.com/privacy/",
+  "termsOfServiceUrl": "https://bibecoder.com/terms/",
+  "supportUrl": "https://bibecoder.com/docs/"
+}

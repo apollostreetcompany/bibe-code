@@ -1,0 +1,16 @@
+{
+  "description": "Bibe Code: one short Bible reading under your agent's final answer. Silent until you run bible-coder setup --source plugin.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/bibe-stop.sh\" 2>/dev/null || :",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
